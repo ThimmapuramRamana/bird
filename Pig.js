@@ -24,6 +24,9 @@ class Pig extends BaseClass {
     if (this.Visiblity < 0 && this.Visiblity > -1005){
       score++;
     }
+    if(this.Visibility<0&&this.Visibility>-50){
+      pigSnortSound.play();
+    }
   }
 
 
